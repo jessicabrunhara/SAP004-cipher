@@ -1,3 +1,7 @@
+h1{
+    text-align: center;
+
+}
 .mensagem{
     display: flex;
     justify-content: center;
@@ -14,13 +18,7 @@
 
 
 
-.deslocamento{
-    display: inline-block;
-    width: 500px;
-    height: 500px;
+body{
+background-color: rgb(238, 216, 223);
 
 }
-
-
-body{
-background-image: url(imagens/fundo3.jpg);}
