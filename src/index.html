@@ -1,14 +1,40 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>Acolhimento</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div id="root">
-      <h1>Hello world!</h1>
-    </div>
-    <script src="index.js" type="module"></script>
-  </body>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Acolha</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <main>
+    <h1>A C O L H A</h1><br>
+    <h2 class="mensagem">Você não está sozinha</h2>
+    <h3 class="mensagem">Caso esteja passando por qualquer tipo de violência, ligue 180.</h3><br>
+
+    <label class="textoCaixaUm">Escreva aqui a sua mensagem:</label>
+    <textarea class="caixa" id="textoEscrever" rows="10" cols="30" maxlength="1200" required>
+        </textarea>
+
+    <textarea class="caixa" id="textoResultado" rows="10" cols="30" maxlength="1200" disabled>
+        </textarea> <br>
+    <br>
+
+    <label class="deslocamento">Deslocamento</label>
+    <input id="deslocamento" type="number" value="1" size="6" min="1" max="6" name="deslocamento"  placeholder="num"
+      required>
+
+    <form id="escolha">
+      <input type="radio" name="escolhaRadio" value=c>Cifrar</button>
+      <input type="radio" name="escolhaRadio" value=d>Decifrar</button>
+    </form>
+
+  </main>
+
+  <script src="main.js"></script>
+
+</body>
+
 </html>
