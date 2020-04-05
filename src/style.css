@@ -1,0 +1,26 @@
+.mensagem{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: medium;
+}
+
+.caixa{
+    resize: none;
+    display: inline-block;
+    
+}
+
+
+
+
+.deslocamento{
+    display: inline-block;
+    width: 500px;
+    height: 500px;
+
+}
+
+
+body{
+background-image: url(img/fundo3.jpg);
