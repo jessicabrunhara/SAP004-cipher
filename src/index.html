@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Acolha</title>
   <link rel="stylesheet" href="style.css">
+  <script src="index.js" type="module"></script>
 </head>
 
 <body>
@@ -15,27 +16,25 @@
     <h3 class="mensagem">Caso esteja passando por qualquer tipo de violência, ligue 180.</h3><br>
 
     <label class="textoCaixaUm">Escreva aqui a sua mensagem:</label>
-    <textarea class="caixa" id="textoEscrever" rows="10" cols="30" maxlength="1200" required>
-        </textarea>
+    <textarea class="caixa" id="textoEscrever" rows="10" cols="30" maxlength="1200" required></textarea>
 
-    <textarea class="caixa" id="textoResultado" rows="10" cols="30" maxlength="1200" disabled>
-        </textarea> <br>
+    <textarea class="caixa" id="textoResultado" rows="10" cols="30" maxlength="1200" disabled></textarea> <br>
     <br>
 
     <label class="deslocamento">Deslocamento</label>
     <input id="deslocamento" type="number" value="1" size="6" min="1" max="6" name="deslocamento" placeholder="num"
-      required>
+      required />
 
-    <form id="escolha">
-      <input type="radio" name="escolhaRadio" value=c>Cifrar</button>
-      <input type="radio" name="escolhaRadio" value=d>Decifrar</button>
+    <form id="escolha" onsubmit="return processarDados(event)">
+      <input type="radio" name="escolhaRadio" value=c>Cifrar</input>
+      <input type="radio" name="escolhaRadio" value=d>Decifrar</input>
+      <button type="submit">Enviar></button>
     </form>
 
 
 
   </main>
 
-  <script src="main.js"></script>
 
 </body>
 
