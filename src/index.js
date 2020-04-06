@@ -13,16 +13,17 @@ const textoEscrever = campoTextoEscrever.value;
 const deslocamento = campoDeslocamento.value;
 
 if(camposEscolha[0].checked) {
-    campoTextoResultado.value = cipher.code(textoEscrever, deslocamento);
+    campoTextoResultado.value = cipher.code(textoEscrever, deslocamento)
     
+
 
 }
 
-if(campoEscolha[1].checked){
+if(camposEscolha[1].checked){
+   
    
 }
 
-}
 
 const formulario = document.getElementById('escolha');
 formulario.onsubmit = processarDados;
