@@ -23,7 +23,7 @@ const cipher = {
     }
 
 
-    return String.fromCharCode(...codigosFinais);
+    //  return String.fromCharCode(...codigosFinais);
 
   },
   decode: function (texto, deslocamento) {
