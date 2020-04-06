@@ -6,27 +6,25 @@ const campoDeslocamento = document.getElementById('deslocamento');
 const camposEscolha = document.getElementsByName('escolhaRadio');
 
 function processarDados(event) {
- event.preventDefault();
+    event.preventDefault();
+
+
+    const textoEscrever = campoTextoEscrever.value;
+    const deslocamento = campoDeslocamento.value;
+
+
+    if (camposEscolha[0].checked) {
+        campoTextoResultado.value = cipher.code(textoEscrever, deslocamento);
+        //console.log(
+        //cipher.code(textoEscrever, deslocamento)
+
+    }
+
+    if (camposEscolha[1].checked) {
+        //console.log('decifrar');
+    }
+
 }
-
-const textoEscrever = campoTextoEscrever.value;
-const deslocamento = campoDeslocamento.value;
-
-
-if(camposEscolha[0].checked) {
-    campoTextoResultado.value = cipher.code(textoEscrever, deslocamento);
-    //console.log(
-      //cipher.code(textoEscrever, deslocamento)
-        
-
-
-}
-
-if(camposEscolha[1].checked){
-  //console.log('decifrar');
-   
-}
-
 
 const formulario = document.getElementById('escolha');
 formulario.onsubmit = processarDados;
