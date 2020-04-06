@@ -1,5 +1,5 @@
 const cipher = {
-  code: function (textoOriginal, deslocamentoOriginal) {
+  encode: function (textoOriginal, deslocamentoOriginal) {
     const texto = textoOriginal.toUpperCase();
     const deslocamento = parseInt(deslocamentoOriginal)
 

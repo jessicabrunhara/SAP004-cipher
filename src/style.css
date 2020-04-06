@@ -2,6 +2,15 @@ h1{
     text-align: center;
 
 }
+
+.logo{
+    position: absolute;
+    top:5%;
+    left: 42.7%;
+    margin-right: -50%;
+ 
+ }
+
 .mensagem{
     display: flex;
     justify-content: center;
@@ -15,10 +24,16 @@ h1{
     
 }
 
-
-
-
-body{
-background-color: rgb(238, 216, 223);
+.popups{
+    position: absolute;
+        left: 25.7%;
+    margin-right: -50%;
 
 }
+
+body{
+
+
+
+}
+
