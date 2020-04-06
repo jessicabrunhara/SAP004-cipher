@@ -5,7 +5,7 @@ const cipher = {
 
     let indiceAtual = 0;
     let codigos = [];
-    while(indiceAtual < texto.length) {
+    while (indiceAtual < texto.length) {
       const codigoDoCaractere = texto.charCodeAt(indiceAtual);
       codigos.push(codigoDoCaractere);
       indiceAtual = indiceAtual + 1;
@@ -15,7 +15,7 @@ const cipher = {
 
     indiceAtual = 0;
     let codigosFinais = [];
-    while(indiceAtual < codigos.length) {
+    while (indiceAtual < codigos.length) {
       const codigoDeslocado = codigos[indiceAtual] + deslocamento;
       codigosFinais.push(codigoDeslocado);
       indiceAtual = indiceAtual + 1;
