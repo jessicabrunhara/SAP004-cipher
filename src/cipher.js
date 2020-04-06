@@ -11,7 +11,7 @@ const cipher = {
       indiceAtual = indiceAtual + 1;
     }
 
-    //console.log(codigos);
+    
 
     indiceAtual = 0;
     let codigosFinais = [];
@@ -19,7 +19,7 @@ const cipher = {
       const codigoDeslocado = codigos[indiceAtual] + deslocamento;
       codigosFinais.push(codigoDeslocado);
       indiceAtual = indiceAtual + 1;
-      //console.log(codigosFinais);
+      
     }
 
 

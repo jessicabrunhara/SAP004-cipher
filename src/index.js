@@ -17,13 +17,13 @@ function processarDados(event) {
 
     if (camposEscolha[0].checked) {
         campoTextoResultado.value = cipher.encode(textoEscrever, deslocamento);
-        //console.log(
-        //cipher.code(textoEscrever, deslocamento)
+        
+        
 
     }
 
     if (camposEscolha[1].checked) {
-        //console.log('decifrar');
+        
     }
 
 }
