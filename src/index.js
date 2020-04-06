@@ -12,15 +12,18 @@ function processarDados(event) {
 const textoEscrever = campoTextoEscrever.value;
 const deslocamento = campoDeslocamento.value;
 
+
 if(camposEscolha[0].checked) {
-    campoTextoResultado.value = cipher.code(textoEscrever, deslocamento)
-    
+    campoTextoResultado.value = cipher.code(textoEscrever, deslocamento);
+    //console.log(
+      //cipher.code(textoEscrever, deslocamento)
+        
 
 
 }
 
 if(camposEscolha[1].checked){
-   
+  //console.log('decifrar');
    
 }
 
