@@ -1,14 +1,14 @@
 h1{
-    text-align: center;
-
+    display: flex;
+    justify-content: center;
+    background-color: #c5758d;
 }
 
 .logo{
-    position: absolute;
-    top:5%;
-    left: 42.7%;
-    margin-right: -50%;
- 
+    display:flex;
+    justify-content: center;
+    
+    
  }
 
 .mensagem{
@@ -18,21 +18,38 @@ h1{
     font-size: medium;
 }
 
-.caixa{
+.caixas{
     resize: none;
-    display: inline-block;
+    display: inline-flex;
+    
     
 }
 
-/*.popups{
-    position: absolute;
-    left: 25.7%;
-    margin-right: -50%;
+.textoCaixaUm{
+    display: flex;
+
+}
+
+.deslocamento{
+    display: inline-block;
+    justify-content: center;
     
-} */
+}
+
+#escolha{
+    display: inline-block;
+    justify-content: center;
+}
+
+.popups{
+    display: inline-block;
+    justify-content: center;
+       
+} 
 
 body{
-
+  background-color: #BE5F7C;
+    
 
 
 }

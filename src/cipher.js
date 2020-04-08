@@ -1,5 +1,5 @@
 const cipher = {
-  encode: function(textoOriginal, deslocamentoOriginal) {
+  encode: function(deslocamentoOriginal, textoOriginal) {
     const texto = textoOriginal.toUpperCase();
     const deslocamento = parseInt(deslocamentoOriginal)
 
@@ -17,7 +17,7 @@ const cipher = {
     let codigosFinais = [];
     while(indiceAtual < codigos.length) {
       const codigoDeslocado = codigos[indiceAtual] + deslocamento;
-      codigosFinais.push(codigoDeslocado);
+      codigosFinais.push(((codigoDeslocado -64) % 26) + 64);
       indiceAtual = indiceAtual + 1;
       
     }
@@ -26,7 +26,7 @@ const cipher = {
     return String.fromCharCode(...codigosFinais);
 
   },
-  decode: function (texto, deslocamento) {
+  decode: function (deslocamentoOriginal, textoOriginal) {
     return texto;
   }
 };

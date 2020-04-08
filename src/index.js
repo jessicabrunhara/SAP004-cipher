@@ -1,6 +1,6 @@
 import cipher from './cipher.js';
 
-alert('A ACOLHA é um espaço seguro. \nCaso esteja passando por qualquer tipo de violência, ligue 180 - Central de Atendimento à Mulher.');
+
 
 const campoTextoEscrever = document.getElementById('textoEscrever');
 const campoTextoResultado = document.getElementById('textoResultado');
@@ -16,7 +16,7 @@ function processarDados(event) {
 
 
     if (camposEscolha[0].checked) {
-        campoTextoResultado.value = cipher.encode(textoEscrever, deslocamento);
+        campoTextoResultado.value = cipher.encode(deslocamento, textoEscrever);
         
         
 
