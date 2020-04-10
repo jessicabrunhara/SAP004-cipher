@@ -4,6 +4,17 @@ h1{
     background-color: #c5758d;
 }
 
+.caixona{
+    background-color: rgb(189, 189, 189);
+    opacity: 50%;
+    display: flexbox;
+    justify-content: center;
+    width: 900px;
+    height: 500px;
+    margin: 15px; 
+}
+
+
 .logo{
     display:flex;
     justify-content: center;
@@ -48,8 +59,8 @@ h1{
 } 
 
 body{
-  background-color: #BE5F7C;
-    
+    background-image: url(imagens/fundo3.jpg);
+ 
 
 
 }

@@ -3,56 +3,54 @@
 
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Acolha</title>
   <link rel="stylesheet" href="style.css">
   <script src="index.js" type="module"></script>
 </head>
-<h1>A C O L H A</h1>
+<h1>a c o l h a</h1>
 
 <body>
-  <main>
-    <div class="logo"><img src="imagens/acolha2.png" alt="algum texto" width=140 height=120></div>
-    <h2 class="mensagem">Você não está sozinha. <br> Caso esteja passando por qualquer tipo de violência, ligue 180.</h2><br>
-    
-    <label class="textoCaixaUm">Escreva aqui a sua mensagem:</label>
-    <div class="caixas">
-    <textarea div class="caixas" id="textoEscrever" rows="10" cols="30" maxlength="1200" required></textarea>
-
-    <textarea div class="caixas" id="textoResultado" rows="10" cols="30" maxlength="1200" disabled></textarea></div> <br>
-    <br>
-
-    <label class="deslocamento">Deslocamento</label>
-    <input class ="deslocamento" id="deslocamento" type="number" value="1" size="6" min="1" max="6" name="deslocamento" placeholder="num"
-      required />
-
-    <form id="escolha">
-      <input type="radio" name="escolhaRadio" value=c>Cifrar</input>
-      <input type="radio" name="escolhaRadio" value=d>Decifrar</input>
-      <button type="submit">Enviar</button>
-    </form>
-
   
-  <br><br><div class="popups">
-      <img src="imagens/180.png" alt="algum texto" width=350 height=350>
-      <img src="imagens/maria da penha.png" alt="algum texto" width=350 height=350>
-    </div> 
 
-    
+    <div class="logo"><img src="imagens/acolha2.png" alt="falha ao carregar" width=140 height=120></div>
+    <h2 class="mensagem">Você não está sozinha. <br> Caso esteja passando por algum tipo de violência, ligue 180.</h2>
+    <div class="caixona"> </div>
 
-  </main>
+    <section>
+      
+
+      <div class="caixas">
+        <label class="escrevaAquiASuaMensagem">Escreva aqui a sua mensagem:</label>
+        <textarea class="caixas" id="textoEscrever" rows="10" cols="30" maxlength="1200" required></textarea>
+        <textarea class="caixas" id="textoResultado" rows="10" cols="30" maxlength="1200" disabled></textarea>
+      </div>
+
+      <div class="desloc">
+        <label class="desloc">Deslocamento</label>
+        
+        <input class="desloc" id="deslocamento" type="number" value="1" size="6" min="1" max="6" name="deslocamento"
+          placeholder="num" required />
+      </div>
+
+      <form id="escolha">
+        <input type="radio" name="escolhaRadio" value=c>Cifrar</input>
+        <input type="radio" name="escolhaRadio" value=d>Decifrar</input>
+        <button type="submit" class="botao">Enviar</button>
+      </form>
+
+
+    </section>
+
+
+
+
+
+ 
+
 
 
 </body>
-  
+
 
 </html>
-
-
-
-<!-- estava assim antes
-  <form id="escolha" onsubmit="return processarDados(event)">
-  <input type="radio" name="escolhaRadio" value=c>Cifrar</input>
-  <input type="radio" name="escolhaRadio" value=d>Decifrar</input>
-  <button type="submit">Enviar></button>
-</form> -->
