@@ -1,0 +1,67 @@
+h1{
+    display: flex;
+    justify-content: center;
+    background-color: #c5758d;
+}
+
+.caixona{
+    background-color: rgb(189, 189, 189);
+    opacity: 50%;
+    display: flexbox;
+    justify-content: center;
+    width: 900px;
+    height: 500px;
+    margin: 15px; 
+}
+
+
+.logo{
+    display:flex;
+    justify-content: center;
+    
+    
+ }
+
+.mensagem{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: medium;
+}
+
+.caixas{
+    resize: none;
+    display: inline-flex;
+    
+    
+}
+
+.textoCaixaUm{
+    display: flex;
+
+}
+
+.deslocamento{
+    display: inline-block;
+    justify-content: center;
+    
+}
+
+#escolha{
+    display: inline-block;
+    justify-content: center;
+}
+
+.popups{
+    display: inline-block;
+    justify-content: center;
+       
+} 
+
+body{
+    background-image: url(imagens/fundo3.jpg);
+ 
+
+
+}
+

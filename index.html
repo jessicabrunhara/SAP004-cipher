@@ -1,14 +1,50 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>Acolhimento</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div id="root">
-      <h1>Hello world!</h1>
-    </div>
-    <script src="index.js" type="module"></script>
-  </body>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Acolha</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="index.js" type="module"></script>
+</head>
+<h1>a c o l h a</h1>
+
+<body>
+  
+
+    <div class="logo"><img src="imagens/acolha2.png" alt="falha ao carregar" width=140 height=120></div>
+    <h2 class="mensagem">Você não está sozinha. <br> Caso esteja passando por algum tipo de violência, ligue 180.</h2>
+    <div class="caixona"> </div>
+
+    <section>
+      
+
+      <div class="caixas">
+        <label class="escrevaAquiASuaMensagem">Escreva aqui a sua mensagem:</label>
+        <textarea class="caixas" id="textoEscrever" rows="10" cols="30" maxlength="1200" required></textarea>
+        <textarea class="caixas" id="textoResultado" rows="10" cols="30" maxlength="1200" disabled></textarea>
+      </div>
+
+      <div class="desloc">
+        <label class="desloc">Deslocamento</label>
+        
+        <input class="desloc" id="deslocamento" type="number" value="1" size="6" min="1" max="6" name="deslocamento"
+          placeholder="num" required />
+      </div>
+
+      <form id="escolha">
+        <input type="radio" name="escolhaRadio" value=c>Cifrar</input>
+        <input type="radio" name="escolhaRadio" value=d>Decifrar</input>
+        <button type="submit" class="botao">Enviar</button>
+      </form>
+
+
+    </section>
+
+    
+
+</body>
+
+
 </html>
