@@ -67,9 +67,12 @@ h1{
     max-width: 100%;
 }
 
-.popups{
-    display: inline-block;
+.alertas3{
+    display: flex;
     justify-content: center;
+    align-items: center;
+    
+
 }
 
 body{
