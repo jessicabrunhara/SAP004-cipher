@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 h1{
     display: flex;
     justify-content: center;
@@ -5,21 +9,21 @@ h1{
 }
 
 .caixona{
-    background-color: rgb(189, 189, 189);
-    opacity: 50%;
-    display: flexbox;
+    display: flex;
     justify-content: center;
-    width: 900px;
-    height: 500px;
-    margin: 15px; 
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    background-color: rgba(189, 189, 189, 70%);
+    margin: 15px;
 }
 
 
 .logo{
     display:flex;
     justify-content: center;
-    
-    
+
+
  }
 
 .mensagem{
@@ -31,9 +35,12 @@ h1{
 
 .caixas{
     resize: none;
-    display: inline-flex;
-    
-    
+    display: flex;
+    flex-direction: column;
+}
+
+.caixas_texto {
+    display: flex;
 }
 
 .textoCaixaUm{
@@ -44,24 +51,33 @@ h1{
 .deslocamento{
     display: inline-block;
     justify-content: center;
-    
+
 }
 
 #escolha{
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    max-width: 140px;
 }
 
-.popups{
-    display: inline-block;
+#escolha > * {
+    max-width: 100%;
+}
+
+.alertas{
+    display: flex;
     justify-content: center;
-       
-} 
+    align-items: center;
+    
+
+}
 
 body{
     background-image: url(imagens/fundo3.jpg);
- 
+
 
 
 }
-
