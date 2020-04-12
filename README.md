@@ -22,8 +22,8 @@ Site onde o usuário poderá cifrar ou decifrar uma mensagem indicando o número
  * Informações sobre a Casa Abrigo 
 
 ## 3. Principais Usuários
-*Mulheres vítimas de violência doméstica
-*Pessoas que fazem parte da rede de apoio dessas mulheres
+* Mulheres vítimas de violência doméstica
+* Pessoas que fazem parte da rede de apoio dessas mulheres
 
 ## 4. Como usar a Acolha
 
