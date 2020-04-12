@@ -69,8 +69,7 @@ Em outras palavras, você aprenderá:
 * Organizar o seu tempo e priorizar as tarefas em um ambiente com **alta
   incerteza**.
 * Entender as **necessidade do usuário** e propor uma solução.
-* Entender a importância do processo de prototipação durante a criação de um
-  produto digital.
+* 
 * Conhecer os princípios básicos de desenho visual.
 * Utilizar _tags_ semânticas de HTML e elementos de formulário.
 * Mostrar elementos de formulário na tela usando **HTML** e **CSS**.
@@ -93,10 +92,10 @@ Em outras palavras, você aprenderá:
 
 ## 4. Como usar a Acolha
 
-* Este projeto deve ser resolvido individualmente.
-* O projeto será entregue subindo o seu código no GitHub (commit/push) e o
-  deploy será feito no GitHub Pages. Se não sabe o que é o GitHub, não se
-  preocupe, você aprendera durante o projeto.
+* Clique [aqui](https://jessicabrunhara.github.io/SAP004-cipher/)
+* 
+
+
 
 ## 5. Checklist
 
