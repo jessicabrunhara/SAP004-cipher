@@ -296,7 +296,7 @@ Essa seção é para te ajudar a ter um controle do que você precisa completar.
 
 ### Parte Obrigatória
 
- [ ] `README.md` adicionar informação sobre o processo e decisões do desenho.
+* [X] `README.md` adicionar informação sobre o processo e decisões do desenho.
 * [ ] `README.md` explicar claramente quem são os usuários e as suas relações
   com o produto.
 * [ ] `README.md` explicar claramente como o produto soluciona os
