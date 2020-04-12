@@ -316,8 +316,8 @@ Essa seção é para te ajudar a ter um controle do que você precisa completar.
 * [x] Interface que permita escrever um texto para ser decifrado.
 * [x] Interface que mostre o resultado decifrado corretamente.
 
-### Parte Opcional: "Hacker edition"
+//### Parte Opcional: "Hacker edition"
 
-* [ ] Cifrar/decifrar minúsculas.
-* [ ] Cifrar/decifrar _outros_ caractéres (espações, pontuação, `ç`, `á`, ...).
-* [ ] Permitir usar `offset` negativo.
+//* [ ] Cifrar/decifrar minúsculas.
+//* [ ] Cifrar/decifrar _outros_ caractéres (espações, pontuação, `ç`, `á`, ...).
+//* [ ] Permitir usar `offset` negativo.
