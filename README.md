@@ -15,7 +15,8 @@ Site onde o usuário poderá cifrar ou decifrar uma mensagem indicando o número
 
 
 ## 2. Sobre a Acolha
- A Acolha é um site que permite a cifragem e decifragem de mensagens. Ele foi pensado para mulheres vítimas de violência doméstica. Sabendo que muitas vezes, essas mulheres tem suas conversas monitoradas, criamos um ambiente seguro e sigiloso para que ela possa digitar a sua mensagem, cifrá-la e então enviar para a sua rede de apoio. 
+ A Acolha é um site que permite a cifragem e decifragem de mensagens. Ele foi pensado para mulheres vítimas de violência doméstica. 
+ Sabendo que muitas vezes, essas mulheres tem suas conversas monitoradas, criamos um ambiente seguro e sigiloso para que ela possa digitar a sua mensagem, cifrá-la e então enviar para a sua rede de apoio. 
  Além disso, o site contém algumas informações úteis para estas mulheres. Por exemplo:
  * O número da Central de Atendimento à Mulher
  * Informações sobre a Lei Maria da Penha
