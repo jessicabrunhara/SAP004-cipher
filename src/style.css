@@ -96,6 +96,6 @@ h1{
 body{
     background-image: url(imagens/fundo3.jpg);
     margin: 0px;
-    background-size: 
+    background-size: cover;
 
 }
